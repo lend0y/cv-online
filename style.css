@@ -505,3 +505,10 @@ body {
 [data-theme="light"] .hero-left {
   background: none !important;
 }
+
+/* Topbar lebih terang */
+[data-theme="light"] .topbar {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(12px);
+}
