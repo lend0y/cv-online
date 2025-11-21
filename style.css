@@ -512,3 +512,11 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
   backdrop-filter: blur(12px);
 }
+
+/* Card portfolio */
+[data-theme="light"] .card {
+  background: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05) !important;
+  background-image: none !important;
+}
