@@ -520,3 +520,9 @@ body {
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05) !important;
   background-image: none !important;
 }
+
+/* Text color fix */
+[data-theme="light"] {
+  --text-main: #0f172a;
+  --text-muted: #475569;
+}
