@@ -500,3 +500,8 @@ body {
   background-image: none !important;
 }
 
+/* Hero gradient fix */
+[data-theme="light"] .hero-right,
+[data-theme="light"] .hero-left {
+  background: none !important;
+}
