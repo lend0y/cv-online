@@ -472,3 +472,23 @@ body {
     align-items: stretch;
   }
 }
+
+/* ==========================
+   FIX LIGHT MODE BACKGROUNDS
+   ========================== */
+
+[data-theme="light"] body {
+  background: #f1f5f9; /* background utama */
+}
+
+[data-theme="light"] .section {
+  background: transparent !important;
+}
+
+/* Kartu pendidikan (edu-item) */
+[data-theme="light"] .edu-item {
+  background: #ffffff !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05) !important;
+}
+
